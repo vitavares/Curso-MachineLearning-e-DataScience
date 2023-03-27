@@ -19,5 +19,5 @@ elif media>=4.1 and media<=6.0:
     n_exame = float(input('\nNota do exame: '))
     res = 'aprovado' if n_exame>6.0 else 'reprovado'
     print('\nO aluno está', res)
-elif media>6.0:
+else:
     print('\nO aluno está aprovado.')
